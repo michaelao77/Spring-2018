@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.title {
+	font-family: 'Bungee Shade', cursive;
+	height: 700px;
+	background-image: url(images/bryan.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 72px;
+	color: black;
+	z-index: -1;
+	position: sticky;
+	top: 0;
+	opacity: 0.9;
+
+}
+
+h1 {
+	background-color: white;
+}
+
+.body {
+	width: 100%
+	height: 50vh;
+	background-color: white;
+	z-index: 0;
+	font-family: 'Jockey One', sans-serif;
+	font-size: 24px;
+}
+
+/*HEADER*/
+
+.boxes {
+	padding: 10vh 0 12vh 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.box-one, .box-two {
+	border: 5px solid black;
+	padding: 50px;
+	max-width: 55vh;
+	min-width: 100px;
+	text-align: center;
+	box-shadow: -15px 10px rgba(0, 0, 0, 1);
+}
+
+.box-middle {
+	width: 7%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline yellow;
+}
+
+/*TEXT+IMAGE*/
+
+.text-image {
+	width: 100%;
+	position: relative;
+	font-size: 20px;
+}
+
+.prep {
+	width: 90%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+/*    border: 15px solid black;
+*/}
+
+#text-one {
+	max-width: 500px;
+	min-width: 300px;
+	background-color: white;
+	position: absolute;
+	top: 5vh;
+	left: 60vh;
+	z-index: 10;
+}
+
+#text-two {
+	max-width: 500px;
+	background-color: white;
+	position: absolute;
+	top: 85vh;
+	left: 7vh;
+}
+
+/*PHOTO COLLAGE*/
+
+.photo-collage {
+/*	max-width: 100%;
+*/	padding-top: 16%;
+	margin-left: -2%;
+	display: block;
+	text-align: center;
+}
+
+.photo-one {
+	max-width: 40%;
+	position: relative;
+	top: 5vh;
+	right: -55vh;
+	z-index: 2;
+	border: 15px solid white;
+}
+
+.photo-two {
+	max-width: 65%;
+	position: relative;
+	top: -25vh;
+	z-index: 1;
+	border: 15px solid white;
+
+}
+
+.photo-three {
+	max-width: 50%;
+	position: relative;
+	top: -60vh;
+	left: 85vh;
+    z-index: 0;
+	border: 15px solid black;
+
+}
+
+.photo-four {
+	max-width: 40%;
+	position: relative;
+	left: -90vh;
+	top: -160vh;
+	border: 15px solid black;
+}
+
+#text-three {
+	max-width: 600px;
+	position: absolute;
+	margin-top: -4vh;
+	margin-left: 100vh;
+	background-color: white;
+	z-index: 3;
+}
+
+#text-four {
+	position: absolute;
+	background-color: white;
+	top: 285vh;
+	left: 10vh;
+}
+
+#gourmetmeals, #privatedinners {
+    display: block;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.jars {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -50vh;
+	text-align: center;
+	padding-bottom: 8vh;
+}
+
+/*CONTACT*/
+.contact {
+	position: absolute;
+	margin-top: -50vh;
+	left: 20%;
+	background-color: white;
+	z-index: 2;
+}
+
+h2 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 42px;
+	padding-bottom: 5px;
+
+}
+
+/*FOOTER*/
+
+.footer {
+	position: sticky;
+	background-color: black;
+	height: 100px;
+	z-index: 3;
+}
