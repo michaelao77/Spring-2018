@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Six Caps', sans-serif;
-	font-size: 28px;
+	font-size: 32px;
 	background-color: rgba(255, 214, 243, 0.85);
 }
 
@@ -31,37 +31,48 @@ body {
 
 .lyrics {
 	float: right;
-	margin-top: -12vh; 
-	margin-right: 25vh;
+	margin-top: -20vh; 
+	margin-right: 30vh;
 	text-align: center;
 	letter-spacing: 4px;
-	color: rgba(0, 0, 0, 0.5);
+	opacity: 0.3;
 }
 
 .lyrics:hover {
-	color: black;
+	opacity: 10;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 .pages {
-	font-family: 'Zilla Slab Highlight', cursive;
-	padding-top: 2vh;
-	padding-left: 5vh;
+	font-family: 'Fascinate Inline', cursive;
+	padding-left: 1vh;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+	list-style-type: square;
 }
 
 .pages a {
 	text-decoration: none;
-	color: black;
+	color: rgba(0, 0, 0, 0.7);
+	cursor: pointer;
 }
 
-li:hover {
-	color: #595959;
+.pages a:hover {
+	color: black;
 }
 
 .note {
 	font-family: 'Six Caps', sans-serif;
 	padding-left: 3vh;
 	padding-top: 1vh;
-	color: rgba(0, 0, 0, 0.7);
+	color: black;
+	letter-spacing: 1.5px;
+}
+
+.note:hover {
+	font-style: italic;
 }
 
 footer {
@@ -70,6 +81,7 @@ footer {
 	text-decoration: none;
 	font-size: 60px;
 	float: right;
+	margin-top: -10vh;
 
 }
 
