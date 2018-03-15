@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 72px;
+	background-color: black;
+}
+
+.p2, .p4 {
+	text-align: right;
+}
+
+.p1 {
+	background-color: #ECFF4F;
+}
+
+.line-1 {
+	background-color: #D999EF;
+}
+
+.line-2 {
+	background-color: #9F70AF;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.p3 {
+	background-color: rgba(237, 255, 77, 0.72);
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.l1 {
+	background-color: rgba(218, 154, 239, 0.65);
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.l2 {
+	background-color: rgba(159, 111, 174, 0.65);
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.im {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*FOOTER*/
+.footer {
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 5px;
+	padding-left: 0px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.home, .next {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: black;
+}
+
+.home {
+	float: left;
+}
+
+.footer a {
+	color: #7F3A7F;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: #7F3A7F;
+	text-decoration: none;
+}

@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Anton', sans-serif;
+	background-image: url(../style/backgrounds/rain.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+
+.p1, .p3 {
+	color: #4F4F4F;
+}
+
+.line-1 {
+	font-size: 48px;
+}
+
+.line-2 {
+	color: #878787;
+}
+
+.l1 {
+	color: #878787;
+}
+
+.l2 {
+	font-family: 'Creepster', cursive;
+	color: #DEDEDE;
+	padding-bottom: 20vh;
+}
+
+.small {
+	font-size: 40px;
+}
+
+.smaller {
+	font-size: 36px;
+}
+
+.smallest {
+	font-size: 32px;
+}
+
+.one-more {
+	font-size: 30px;
+}
+
+
+
+/*FOOTER*/
+.footer {
+	margin-top: 6vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: 'Creepster', cursive;
+	text-transform: uppercase;
+	text-indent: 10px;
+	color: white;
+	background-color: black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 10px;
+}
+
+.home, .next {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.home {
+	float: left;
+}
+
+.footer a {
+	color: yellow;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: yellow;
+	text-decoration: none;
+}

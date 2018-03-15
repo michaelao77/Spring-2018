@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+/*FOOTER*/
+.footer {
+	margin-top: 4vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-indent: 15px;
+}
+
+.home {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+.home {
+	float: right;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+	text-decoration: none;
+}

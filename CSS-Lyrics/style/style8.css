@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(backgrounds/download.gif);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: 'VT323', monospace;
+}
+
+.box {
+	max-width: 400px;
+	margin: 70px auto 0 auto;
+	font-size: 24px;
+	line-height: 2;
+}
+
+.intro {
+	padding-top: 25px;
+}
+
+.part2, .baby {
+	padding-top: 30px;
+}
+
+.mybaby {
+	line-height: 1.5;
+	text-align: left;
+}
+
+.part2 {
+	text-align: right;
+}
+
+.second-line {
+	text-indent: 25%;
+}
+
+.tellyour {
+	padding-top: 50px;
+}
+
+.part3 {
+		text-align: right;
+}
+
+.emphasis {
+	color: white;
+}
+
+/*HOVERS*/
+
+p:hover {
+	color: white;
+}
+
+.mybaby:hover {
+	cursor: url(cursors/grin.ico), auto;
+}
+
+.second-line:hover {
+	cursor: url(cursors/bigsmile.ico), auto;
+}
+
+.part2:hover {
+	cursor: url(cursors/closedeyesmile.ico), auto;
+}
+
+.sayit:hover {
+	cursor: url(cursors/embarrassed.ico), auto;
+}
+
+#mybaby2 {
+	cursor: url(cursors/straightface.ico), auto;
+}
+
+#tellyour:hover {
+	cursor: url(cursors/unsure2.ico), auto;
+}
+
+.part3:hover {
+	cursor: url(cursors/sad.ico), auto;
+}
+
+.no-color:hover {
+	color: black;
+}
+
+.emphasis:hover {
+	color: red;
+	cursor: url(cursors/crying.ico), auto;
+}
+
+.last-line:hover {
+	cursor: url(cursors/crying.ico), auto;
+	color: white;
+}
+
+/*FOOTER*/
+.footer {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 27vh;
+}
+
+.home, .next {
+	padding: 20px;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: white;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+
+}

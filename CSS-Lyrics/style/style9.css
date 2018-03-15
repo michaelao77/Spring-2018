@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Averia Gruesa Libre', cursive;
+	font-size: 48px;
+	text-align: center;
+	line-height: 2;
+	background-color: black;
+}
+
+.p1 {
+	padding-top: 10vh;
+}
+
+.top {
+	background-color: white;
+	color: black;
+	margin-top: 11vh;
+	
+}
+
+.top:hover {
+	font-family: 'Sniglet', cursive;
+	background-color: pink;
+	color: white;
+
+}
+
+.bottom {
+	background-color: black;
+	color: white;
+}
+
+.bottom:hover {
+	font-family: 'Freckle Face', cursive;
+	background-color: #BBDE64;
+	color: black;
+}
+
+.p2 {
+	padding-bottom: 40px;
+
+}
+
+.p3 {
+	padding-top: 40px;
+}
+
+.p4 {
+	padding-bottom: 40px;
+}
+
+/*FOOTER*/
+.footer {
+	margin-top: 4vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-indent: 15px;
+}
+
+.home, .next {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+.home {
+	float: left;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+	text-decoration: none;
+}

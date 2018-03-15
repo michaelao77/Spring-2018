@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 48px;
+	color: #474747;
+	margin-top: 10vh;
+}
+
+.body {
+	margin-left: 10%;
+}
+
+.p1 {
+	padding-bottom: 5vh;
+}
+
+.p2 {
+	padding-bottom: 3vh;
+}
+
+.p3 {
+	padding-bottom: 3vh;
+}
+
+.my, .im {
+	font-weight: bold;
+	color: #262626;
+}
+
+
+
+/*FOOTER*/
+.footer {
+	margin-top: 12vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 5px;
+	padding-left: 0px;
+	text-transform: lowercase;
+	text-indent: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 1px dotted #474747;
+	padding-right: 10px;
+}
+
+.home, .next {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+.home {
+	float: left;
+}
+
+.footer a {
+	color: pink;
+	text-decoration: none;
+}
+
+a:visited {
+	color: pink;
+	text-decoration: none;
+}

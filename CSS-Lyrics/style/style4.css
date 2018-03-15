@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Nosifer', cursive;
+
+	text-indent: 10%;
+	background-color: black;
+	font-size: 44px;
+}
+
+.p2 {
+	background-color: #FBFFFA;
+	color: #F10C00;
+
+
+}
+
+.align-right {
+	padding-right: 10%;
+	text-align: right;
+}
+
+.p1, .p3 {
+	font-family: 'Arial Black';
+	text-transform: uppercase;
+	background-color: #F10C00;
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30vh;
+}
+
+.my-baby {
+	color: black;
+}
+
+
+.p4 {
+	background-color: black;
+}
+
+.l1 {
+	padding-top: 15px;
+	color: white;
+}
+
+.l2 {
+	color: #F10C00;
+	font-weight: bold;
+	font-size: 32px;
+	padding-right: 10%;
+	text-align: right;
+	padding-bottom: 12vh;
+}
+
+.im {
+	background-color: white;
+	font-style: italic;
+}
+
+/*FOOTER*/
+.footer {
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 5px;
+	padding-left: 0px;
+	text-transform: uppercase;
+	color: red;
+	background-color: white;
+	padding-bottom: 5vh;
+	padding-top: 3vh;
+	border-top: 3px solid red;
+	padding-right: 5px;
+}
+
+.home, .next {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: red;
+}
+
+.home {
+	float: left;
+}
+
+.footer a {
+	color: red;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+}
+
+a:visited {
+	color: red;
+	text-decoration: none;
+}

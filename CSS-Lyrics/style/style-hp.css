@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Six Caps', sans-serif;
+	font-size: 28px;
+	background-color: rgba(255, 214, 243, 0.85);
+}
+
+.title {
+	font-family: 'Fascinate Inline', cursive;
+	margin-left: 15vh;
+}
+
+.title:hover {
+	color: white;
+}
+
+
+.subtitle {
+	margin-top: -5vh;
+	margin-left: 95vh;
+	font-family: 'Six Caps', sans-serif;
+}
+
+.subtitle:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+
+.lyrics {
+	float: right;
+	margin-top: -12vh; 
+	margin-right: 25vh;
+	text-align: center;
+	letter-spacing: 4px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.lyrics:hover {
+	color: black;
+}
+
+.pages {
+	font-family: 'Zilla Slab Highlight', cursive;
+	padding-top: 2vh;
+	padding-left: 5vh;
+}
+
+.pages a {
+	text-decoration: none;
+	color: black;
+}
+
+li:hover {
+	color: #595959;
+}
+
+.note {
+	font-family: 'Six Caps', sans-serif;
+	padding-left: 3vh;
+	padding-top: 1vh;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+	font-family: 'Six Caps', sans-serif;
+	padding-right: 3vh;
+	text-decoration: none;
+	font-size: 60px;
+	float: right;
+
+}
+
+.footer a {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: pink;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}

@@ -1,0 +1,65 @@
+* {
+	margin-left: 20px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'League Script', cursive;
+	background-color: #FFBBDF;
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 0.7;
+}
+
+.p2, .p4 {
+	text-align: right;
+	padding-right: 40px;
+}
+
+.heart {
+	font-size: 32px;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+#broken {
+	margin-left: -22px;
+	font-size: 25px;
+}
+
+/*FOOTER*/
+.footer {
+	margin-top: 8vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: -100px;
+	padding-left: 0px;
+	text-transform: uppercase;
+}
+
+.home, .next {
+	text-decoration-line: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: #FAFAFA;
+}
+
+.home {
+	float: left;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FCFCFC;
+}
