@@ -1,0 +1,113 @@
+body {
+	margin:0;
+	font-family: 'Roboto Slab', serif;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 10vh;
+	background-color: grey;
+	border-bottom: 2px solid black;
+	text-align: center;
+	z-index: 999;
+	/*opacity: 0.9;*/
+}
+
+.title {
+	height: 100vh;
+	background-image: url(images/self-portrait-lg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: yellow;
+	font-family: 'Cutive Mono', monospace;
+	text-transform: lowercase;
+}
+
+.name {
+	position: absolute;
+	right: 10px;
+}
+
+/*Web Carousel*/
+.row-web {
+	margin-top: 5%;
+}
+
+.carousel-web {
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 400px;
+}
+
+#web-carousel {
+	height: 400px;
+}
+
+.image-link {
+	cursor: pointer;
+}
+
+.carousel-image {
+	padding-top: 10px;
+	height: 100%;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+#typography-screenshot {
+	width: 100;
+	height: auto;
+	padding-left: auto;
+	padding-right: auto;
+	display: block;
+}
+
+.carousel-image:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.carousel-text {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	/*background-color: grey;*/
+}
+
+footer {
+	position: sticky;
+	margin-top: 5%;
+	min-height: 10vh;
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	color: white;
+}
+
+.icons {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.icon {
+	padding: 5px;
+	width: 45px;
+}
+
+.captions {
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 0;
+}
+
+#graphics-carousel {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.daphne-video {
+	padding-top: 5vh;
+}
