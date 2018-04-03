@@ -1,0 +1,25 @@
+body {
+	background-image: url(water.gif);
+	background-size: cover;
+	color: white;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 2rem;
+}
+
+#subtitle {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.stage {
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+}
+
+p {
+	font-family: 'Lobster Two', cursive;
+}
