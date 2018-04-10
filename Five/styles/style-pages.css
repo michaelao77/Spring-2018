@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+
+}
+
+.nav-link a:hover{
+	color: white;
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+.next a{
+	color: white;
+}
+
+.next a:hover {
+	color: #05CE5A;
+	text-decoration: none;
+}
+
+.left-arrow {
+	padding-right: 3px;
+	font-size: 17px;
+}
+
+.right-arrow {
+	font-size: 17px;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	font-family: 'Anton', sans-serif;
+	width: 80%;
+	padding-top: 4vh;
+	margin-left: 5%;
+}
+
+.image {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.iframe {
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+.lyrics {
+	padding-top: 18vh;
+	margin-right: 10%;
+}
+
+.lyrics-title {
+	font-family: 'Anton', sans-serif;
+}
+
+.lyrics-text {
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.5;
+}
+
+.why-text {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.info {
+	padding-top: 50px;
+	margin-left: 10px; 
+	width: 80%;
+}
+
+.key {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+}
+
+.icon {
+	width: 20px;
+	height: auto;
+}
+
+.progress-bar {
+	font-size: 14px;
+}
+
+h4 {
+	font-family: 'Anton', sans-serif;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.progress-bar {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.highlight {
+	background-color: yellow;
+}

@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-link a {
+	color: white !important;
+}
+
+.nav-link:hover {
+	color: grey;
+}
+
+.album-collage {
+	padding-top: 10px;
+	text-align: center;
+}
+
+img {
+	margin-left: -3px;
+	margin-right: -2px;
+}
+
+.mitski {
+	margin-left: -3px;
+}
+
+.album:hover {
+	opacity: 0.8;
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+.title {
+	font-family: 'Anton', sans-serif;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	width: 80%;
+	padding-top: 4vh;
+	margin-left: 5%;
+}
+
+.image {
+	padding-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text {
+	font-family: 'Roboto Condensed';
+	width: 60%;
+	padding-top: 18vh;
+	margin-right: 10%;
+}
+
+.p1 {
+	line-height: 1.5;
+}
+
+.p2 {
+	padding-top: 5vh;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.highlight {
+	background-color: yellow;
+}
