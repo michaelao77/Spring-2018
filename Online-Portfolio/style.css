@@ -1,27 +1,67 @@
 body {
 	margin:0;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', serif;
 }
 
 .header {
-	position: fixed;
+	position: static;
 	width: 100%;
-	height: 10vh;
-	background-color: grey;
-	border-bottom: 2px solid black;
+	height: 7vh;
+	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
 	z-index: 999;
-	/*opacity: 0.9;*/
+}
+
+.name {
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px;
+	color: white;
+	padding-top: 5px;
+	font-size: 28px;
+	text-align: left;
+	text-indent: 20px;
+}
+
+
+.header a {
+	color: #444444;
+	font-size: 18px;
+	font-family: 'Oswald', cursive;
+	text-transform: uppercase;
+}
+
+.header a:hover {
+	/*color: #444444;
+	background-*/color: #fffda3;
+	text-decoration: none;
+
+}
+
+.header-web {
+	font-family: 'Lobster', cursive;
+	color: #5F5F5F;
+	padding-top: 12px;
+}
+
+.header-text {
+	font-family: 'Oswald', sans-serif;
+	width: 70%;
+	margin-top: 20px;
+	color: #303030;
+}
+
+.header-text-two {
+	margin-top: -5px;
 }
 
 .title {
-	height: 100vh;
+	height: 93vh;
 	background-image: url(images/self-portrait-lg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: yellow;
-	font-family: 'Cutive Mono', monospace;
+	font-family: 'Oswald', sans-serif;
 	text-transform: lowercase;
 }
 
@@ -42,6 +82,15 @@ body {
 
 #web-carousel {
 	height: 400px;
+}
+
+
+.project-text {
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .image-link {
@@ -68,9 +117,23 @@ body {
 	cursor: pointer;
 }
 
+.rocky {
+	margin-left: 50px;
+}
+
+.rocky-text {
+	text-indent: 50px;
+}
+
+.movie-text {
+	margin-left: -15px;
+}
+
 .carousel-text {
 	padding-top: 5px;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -102,6 +165,9 @@ footer {
 	text-align: center;
 	margin-top: 0;
 	padding-bottom: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.4px;
 }
 
 #graphics-carousel {
