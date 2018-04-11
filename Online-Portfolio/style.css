@@ -4,22 +4,26 @@ body {
 }
 
 .header {
-	position: static;
-	width: 100%;
+	position: sticky;
+	width: 105%;
 	height: 7vh;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #CCCCC8;
 	text-align: center;
 	z-index: 999;
 }
 
+.header-sticky {
+	position: sticky;
+}
+
 .name {
 	font-family: 'Lobster', cursive;
-	letter-spacing: 1px;
+	letter-spacing: 2.2px;
 	color: white;
 	padding-top: 5px;
 	font-size: 28px;
 	text-align: left;
-	text-indent: 20px;
+	text-indent: 40px;
 }
 
 
@@ -31,11 +35,21 @@ body {
 }
 
 .header a:hover {
-	/*color: #444444;
-	background-*/color: #fffda3;
-	text-decoration: none;
+	color: #444444;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+	text-decoration-style: solid;
 
 }
+
+.header-1 {
+	padding-left: 25%;
+}
+
+.header-2 {
+	padding-left: 20%;
+}
+
 
 .header-web {
 	font-family: 'Lobster', cursive;
@@ -100,7 +114,7 @@ body {
 .carousel-image {
 	padding-top: 10px;
 	height: 100%;
-	opacity: 0.75;
+	opacity: 0.85;
 	cursor: pointer;
 }
 
