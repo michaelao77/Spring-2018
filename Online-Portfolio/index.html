@@ -19,6 +19,9 @@
 </head>
 
 <body>
+<div class="body">
+  
+
 <div class="container-fluid">
   <section class="row align-items-center header header-sticky">
     <div class="col name">
@@ -27,12 +30,12 @@
 
     <div class="col section">
       <h3 class="header-1">
-        <a href="#web">Webpages</a>
+        <a href="#web">Web Design</a>
       </h3>
     </div>
     <div class="col section">
       <h3 class="header-2">
-        <a href="#graphics">Graphics</a>
+        <a href="#graphics">Graphic Design</a>
       </h3>
     </div>
     <div class="col section">
@@ -45,16 +48,53 @@
 
 <div class="container-fluid">
   <div class="row align-items-end justify-content-bottom title">
-    <!-- <h1 class="name">Michaela O'Neil</h1> -->
   </div>
+</div>
+
+<div class="footer row">
+  <container class="container-fluid" id="full-width">
+    <div class="row justify-content-center align-items-center icons">
+      <div class="col-9"></div>
+      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
+        <a href="https://github.com/michaelao77" target="_blank"><img src="images/github.png" class="icon"></a>
+      </div>
+      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
+        <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/resume4.0.pdf" target="_blank"><img src="images/resume.png" class="icon"></a>
+      </div>
+      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
+        <a href="mailto:moneil9@fordham.edu"><img src="images/email.png" class="icon"></a>
+      </div>
+    </div>
+    <div class="row captions">
+      <div class="col-9">
+      </div>
+      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
+        <h6>Github</h6>
+      </div>
+      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
+        <h6>Resume</h6>
+      </div>
+      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
+        <h6>Contact</h6>
+      </div>
+    </div>
+  </container>
 </div>
 
 <div class="container">
   <div class="row row-web" id="web">
     <div class="col-3 header-web">
-      <h2>Webpages</h2>
-      <p class="header-text">Proficient in HTML, CSS and basic Java.</p>  
-      <p class="header-text header-text-two">Experienced in Bootstrap, Dreamweaver, Wix, Wordpress, and jQuery.</p>
+      <h2>Web Design</h2>
+      <div class="header-text">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <br>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+        </ul>
+      </div>
     </div>
     <div class="col-9 carousel-web">
       <div id="web-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -66,12 +106,12 @@
               </div>  
               <div class="carousel-text row">
                 <div class="carousel-text col-6">
-                  <h6>The 17 Project</h6>
-                  <p class="project-text">Final Project for Information and Web Programming. 17 days to learn digital illustration and complete website. Uses complex CSS, Bootstrap and Java.</p>
+                  <h6>17</h6>
+                  <p class="project-text">17 days to learn digital illustration and complete website. Uses CSS, Bootstrap, and Java.</p>
                 </div>
                 <div class="carousel-text col-6">
                   <h6>Privacy Infographic</h6>
-                  <p class="project-text">Midterm for Explorations in New Media. Diagrams done in Illustrator, layout done through Bootstrap, animations via CSS.</p>
+                  <p class="project-text">Infographic on location services. Diagrams done in Illustrator, layout through Bootstrap, animations via CSS.</p>
                 </div>
               </div>
             </div>
@@ -85,11 +125,11 @@
               <div class="carousel-text row">
                 <div class="carousel-text col-6">
                   <h6>Wix Promotional Site</h6>
-                  <p class="project-text">Website made for aspiring artist. Done on the Wix platform.</p>
+                  <p class="project-text">Website made for aspiring artist done on the Wix platform.</p>
                 </div>
                 <div class="carousel-text col-6">
                   <h6>Five Page Site</h6>
-                  <p class="project-text">Instructions to create a five-page site on anything you want. Created a listening experience of my five favorite songs using Bootstrap and iFrames.</p>  
+                  <p class="project-text">Listening experience for five of my favorite songs using Bootstrap and iFrames.</p>  
                 </div>
               </div>
             </div>
@@ -125,55 +165,59 @@
 
   <div class="row row-web" id="graphics">
     <div class="col-3 header-web">
-      <h2>Graphic Designs</h2>
-      <p class="header-text">Skills include Photoshop, Illustrator, and Indesign, as well as digital illustration.</p>  
+      <h2>Graphic Design</h2>
+      <div class="header-text">
+        <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Indesign</li>
+          <li>After Effects</li>
+          <li>Digital Illustration</li>
+        </ul>
+      </div>  
     </div>
-    <div class="col-9 carousel-graphics">
+    <div class="col-9 carousel-graphics carousel-web">
       <div id="graphics-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="carousel-images row">
+              <div class="carousel-images row images-graphic">
                 <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/pills.pdf" class="image-link col-6 d-block" target="_blank"><img class="carousel-image" src="images/pills-screenshot.png" alt="First slide"></a>
                 <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/alpha.pdf" class="d-block col-6 " target="_blank"><img class="carousel-image" src="images/alpha-screenshot.png" alt="First slide"></a>
               </div>  
               <div class="carousel-text row">
                 <div class="carousel-text col-6">
-                  <h6>"Body By Design" Project</h6>
+                  <h6 class="graphic-text">"Body By Design"</h6>
                 </div>
                 <div class="carousel-text col-6">
-                  <h6>Album Alphabet</h6>
+                  <h6 class="graphic-text">Album Alphabet</h6>
                 </div>
               </div>
             </div>
 
             <div class="carousel-item">
-              <div class="carousel-images row">
+              <div class="carousel-images row images-graphic">
                 <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/lois.pdf" class="image-link col-6 d-block" target="_blank"><img class="carousel-image" src="images/lois-screenshot-sm.png" alt="First slide"></a>
                 <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/fur.pdf" class="d-block col-6 " target="_blank"><img class="carousel-image" src="images/fur-screenshot.png" alt="First slide"></a>
               </div>  
               <div class="carousel-text row">
                 <div class="carousel-text col-6">
-                  <h6>Exhibit Advertisement</h6>
+                  <h6 class="graphic-text">Exhibit Advertisement</h6>
                 </div>
                 <div class="carousel-text col-6">
-                  <h6>Fur Trade Infographic</h6>
+                  <h6 class="graphic-text">Fur Trade Infographic</h6>
                 </div>
               </div>
             </div>
-            <!-- <div class="carousel-item">
-          <div class="carousel-images row">
-                <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/tinak.pdf" class="image-link col-6 d-block" target="_blank"><img class="carousel-image" src="images/tina-screenshot.png" alt="First slide"></a>
-                <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/A7.pdf" class="d-block col-6" target="_blank"><img class="carousel-image" src="images/poem-screenshot.png" alt="First slide"></a>
+            <div class="carousel-item">
+          <div class="carousel-images row images-graphic">
+                 <a href="https://michaelao77.github.io/Spring-2018/documents/propsal2.pdf" class="d-block proposal" target="_blank"><img class="carousel-image" src="images/Proposal.png" alt="First slide"></a>
               </div>  
               <div class="carousel-text row">
-                <div class="carousel-text col-6">
-                  <h6>Commissioned Portrait</h6>
-                </div>
-                <div class="carousel-text col-6">
-                  <h6>"Identity of Images" </h6>
+                <div class="carousel-text col">
+                  <h6 class="graphic-text">Hallway Beautification Proposal</h6>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
           <a class="carousel-control-prev" href="#graphics-carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -190,8 +234,14 @@
   <div class="row row-web" id="other">
     <div class="col-3 header-web">
       <h2>Other Work</h2>
-      <p class="header-text">Illustrations by hand.</p>
-      <p class="header-text header-text-two">Familiar with video editing software such as Final Cut Pro and Adobe Premiere Pro.</p>
+      <div class="header-text"><ul>
+          <li>Hand Drawn Illustrations</li>
+          <br>
+          <li>Final Cut Pro</li>
+          <li>Premiere Pro</li>
+          <li>Audition</li>
+        </ul>
+      </div>  
     </div>
     <div class="col-9 carousel-web">
       <div id="other-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -238,37 +288,11 @@
   </div>
 
 </div>
+<br>
+<br>
+<br>
 
-<footer class="footer row">
-  <container class="container-fluid" id="full-width">
-    <div class="row justify-content-center align-items-center icons">
-      <div class="col-9"></div>
-      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
-        <a href="https://github.com/michaelao77" target="_blank"><img src="images/github.png" class="icon"></a>
-      </div>
-      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
-        <a href="https://michaelao77.github.io/Spring-2018/Online-Portfolio/documents/resume4.0.pdf" target="_blank"><img src="images/resume.png" class="icon"></a>
-      </div>
-      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
-        <a href="mailto:moneil9@fordham.edu"><img src="images/email.png" class="icon"></a>
-      </div>
-    </div>
-    <div class="row captions">
-      <div class="col-9">
-      </div>
-      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
-        <h6>Github</h6>
-      </div>
-      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
-        <h6>Resume</h6>
-      </div>
-      <div class="col-sm-1 col-xs-12 col-lg-1 col-md-1">
-        <h6>Contact</h6>
-      </div>
-    </div>
-  </container>
-</footer>
-
+</div>
 
 
 <!-- Scripts -->

@@ -1,19 +1,21 @@
 body {
 	margin:0;
 	font-family: 'Oswald', serif;
+		background-color: #F5EBEB;
+
+}
+
+.body {
+	background-color: #F5EBEB;	
 }
 
 .header {
 	position: sticky;
-	width: 105%;
+	width: 102%;
 	height: 7vh;
-	background-color: #CCCCC8;
+	background-color: #A09797;
 	text-align: center;
 	z-index: 999;
-}
-
-.header-sticky {
-	position: sticky;
 }
 
 .name {
@@ -70,7 +72,7 @@ body {
 
 .title {
 	height: 93vh;
-	background-image: url(images/self-portrait-lg.png);
+	background-image: url(images/self-portrait-lg-animate.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -90,7 +92,7 @@ body {
 }
 
 .carousel-web {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.05);
 	height: 400px;
 }
 
@@ -98,13 +100,21 @@ body {
 	height: 400px;
 }
 
+.graphic-text {
+	padding-top: 20px;
+}
+
+
+.images-graphic {
+	padding-top: 15px;
+}
 
 .project-text {
 	text-align: left;
-	margin-left: 5px;
-	margin-right: 5px;
-	font-size: 14px;
-	font-weight: 400;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 15px;
+	font-weight: 300;
 }
 
 .image-link {
@@ -150,19 +160,29 @@ body {
 	font-weight: 700;
 }
 
+.proposal {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
 .carousel-control-prev, .carousel-control-next {
 	/*background-color: grey;*/
 }
 
-footer {
+.footer {
 	position: sticky;
-	margin-top: 5%;
-	min-height: 10vh;
-	min-width: 100%;
+	height: 10vh;
+	width: 101.05%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: black;
 	color: white;
+	z-index: 999;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.95);
+	overflow: visible;
 }
 
 .icons {
@@ -182,10 +202,6 @@ footer {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.4px;
-}
-
-#graphics-carousel {
-	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .daphne-video {
